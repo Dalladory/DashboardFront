@@ -14,7 +14,6 @@ import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Formik, Field } from "formik";
 import { LoginSchema } from "../validation";
-import Copyright from "../../../components/copyright";
 import { useActions } from "../../../hooks/useActions";
 import { useTypedSelector } from "../../../hooks/useTypedSelector";
 import { ToastContainer } from "react-toastify";
@@ -139,7 +138,6 @@ const Login: React.FC = () => {
               )}
             </Formik>
           </Box>
-          <Copyright sx={{ mt: 8, mb: 4 }} />
         </Container>
       </ThemeProvider>
     </>
